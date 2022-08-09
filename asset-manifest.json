@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/to_do_list/static/css/main.06dfdd55.css",
+    "main.js": "/to_do_list/static/js/main.2da75948.js",
+    "static/js/787.34d05ddd.chunk.js": "/to_do_list/static/js/787.34d05ddd.chunk.js",
+    "static/media/DMSans-Regular.ttf": "/to_do_list/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/to_do_list/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "static/media/github-icon.svg": "/to_do_list/static/media/github-icon.3df0810af82ad6e256ea1109107fab9e.svg",
+    "index.html": "/to_do_list/index.html",
+    "static/media/update-button.svg": "/to_do_list/static/media/update-button.507d95f932a988db0569.svg",
+    "static/media/full-button.svg": "/to_do_list/static/media/full-button.325749f46721e84bb829.svg",
+    "static/media/close-button.svg": "/to_do_list/static/media/close-button.93f8e94bae77cf34e301.svg",
+    "static/media/delete-button.svg": "/to_do_list/static/media/delete-button.93f8e94bae77cf34e301.svg",
+    "static/media/telegram-icon.svg": "/to_do_list/static/media/telegram-icon.c96ae37bc57401d7c6a977996043818b.svg",
+    "static/media/edit-button.svg": "/to_do_list/static/media/edit-button.62a7011ff58c3fea3aeb.svg",
+    "static/media/email-icon.svg": "/to_do_list/static/media/email-icon.675493c51e6edae7784262d1f574754b.svg",
+    "static/media/done-button.svg": "/to_do_list/static/media/done-button.dbe6126339ef8864b240.svg",
+    "main.06dfdd55.css.map": "/to_do_list/static/css/main.06dfdd55.css.map",
+    "main.2da75948.js.map": "/to_do_list/static/js/main.2da75948.js.map",
+    "787.34d05ddd.chunk.js.map": "/to_do_list/static/js/787.34d05ddd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06dfdd55.css",
+    "static/js/main.2da75948.js"
+  ]
+}
