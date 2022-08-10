@@ -3,3 +3,9 @@
     justify-content: space-between;
     width: 110px;
 }
+
+@media screen and (max-width: 425px) {
+    .footer__links {
+        width: 75px;
+    }
+}

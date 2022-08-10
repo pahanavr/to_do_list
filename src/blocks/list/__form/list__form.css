@@ -1,3 +1,4 @@
 .list__form {
+    max-width: 100%;
     position: relative;
 }

@@ -3,3 +3,13 @@
     box-sizing: border-box;
     border-right: 1px black solid;
 }
+
+@media screen and (max-width: 425px) {
+    .list {
+        max-width: 100%;
+        margin: 0 auto;
+        border-top: 1px black solid;
+        border-right: none;
+        order: 1;
+    }
+}

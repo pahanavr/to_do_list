@@ -1,0 +1,8 @@
+.footer__link {
+    transition: 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+    transition: 0.3s ease-in-out;
+    transform: translateX(5px);
+}

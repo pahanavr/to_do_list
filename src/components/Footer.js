@@ -10,7 +10,7 @@ export default function Footer() {
                 <a className="footer__link" target="_blank" href="https://t.me/pahanavrik"><img className="footer__link-image" src={telegramLogo} alt="telegram"/></a>
                 <a className="footer__link" target="_blank" href="https://github.com/pahanavr"><img className="footer__link-image" src={githubLogo} alt="github"/></a>
             </nav>
-            <p className="footer__text">&#169;{new Date().getFullYear()} TO DO List</p>
+            <p className="footer__text">&#169;{new Date().getFullYear()} to do list</p>
         </footer>
     )
 }

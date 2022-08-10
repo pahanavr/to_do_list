@@ -9,9 +9,11 @@
     border-radius: 5px;
     padding: 0;
     border: none;
+    transition: 0.3s ease-out;
 }
 
 .field__button:hover {
-    transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
     transform: translateY(-5px);
+    box-shadow: 0 5px 15px black;
 }

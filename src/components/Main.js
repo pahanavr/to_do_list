@@ -36,25 +36,25 @@ export default function Main({ addItem }) {
 
   //инпут заголовка
   function handleTitleChange(e) {
-    setTitleInput(e.currentTarget.value);
+    setTitleInput(e.target.value);
   }
 
   //инпут содержимого
   function handleTextChange(e) {
-    setTextInput(e.currentTarget.value);
+    setTextInput(e.target.value);
   }
 
   //инпут поиска
   function handleItemSearch(e) {
-    setSearchInput(e.currentTarget.value);
+    setSearchInput(e.target.value);
   }
 
   function handleTitleEditInput(e) {
-    setInputTitleEdit(e.currentTarget.value);
+    setInputTitleEdit(e.target.value);
   }
 
   function handleTextEditInput(e) {
-    setInputTextEdit(e.currentTarget.value);
+    setInputTextEdit(e.target.value);
   }
 
   function handleItemClick(item) {
@@ -103,7 +103,7 @@ export default function Main({ addItem }) {
     ]);
   }
   //функция прогресса задачи
-  function handleItemUpdate(id) {
+  function handleItemProgress(id) {
     setItems([
       ...items.map((item) =>
         item.id === id ? { ...item, progress: !item.progress } : { ...item }
@@ -134,6 +134,7 @@ export default function Main({ addItem }) {
       })
     );
     setEdit(null);
+
     addButton.removeAttribute("disabled", true);
     addButton.classList.remove("field__button_disabled");
     titleField.removeAttribute("disabled", true);
@@ -153,6 +154,7 @@ export default function Main({ addItem }) {
             onChange={handleItemSearch}
           />
         </form>
+        <div className="items">
         {filteredItems?.map((item) => {
           return (
             <Item
@@ -162,7 +164,7 @@ export default function Main({ addItem }) {
               handleItemSave={handleItemSave}
               handleItemDelete={handleItemDelete}
               handleItemDone={handleItemDone}
-              handleItemUpdate={handleItemUpdate}
+              handleItemProgress={handleItemProgress}
               handleItemClick={handleItemClick}
               editTitle={
                 edit == item.id ? (
@@ -171,7 +173,6 @@ export default function Main({ addItem }) {
                     onChange={handleTitleEditInput}
                     onKeyDown={handleEditKeyPress}
                     value={inputTitleEdit || item.title}
-                    required
                   />
                 ) : (
                   item.title
@@ -182,9 +183,7 @@ export default function Main({ addItem }) {
                   <textarea
                     className="item__edit-textarea"
                     onChange={handleTextEditInput}
-                    onKeyDown={handleEditKeyPress}
                     value={inputTextEdit || item.text}
-                    required
                   />
                 ) : (
                   item.text
@@ -215,9 +214,9 @@ export default function Main({ addItem }) {
                       onClick={() => handleItemDone(item.id)}
                     ></button>
                     <button
-                      className="item__update-button"
+                      className="item__progress-button"
                       type="button"
-                      onClick={() => handleItemUpdate(item.id)}
+                      onClick={() => handleItemProgress(item.id)}
                     ></button>
                       <button
                       className="item__full-button"
@@ -230,6 +229,7 @@ export default function Main({ addItem }) {
             />
           );
         })}
+        </div>
       </section>
       <section className="field">
         <form className="field__form" onSubmit={handleSubmit}>

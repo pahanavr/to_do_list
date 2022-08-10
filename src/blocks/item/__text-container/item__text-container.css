@@ -1,5 +1,5 @@
 .item__text-container {
-    width: 350px;
+    max-width: 80%;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;

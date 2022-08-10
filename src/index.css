@@ -34,7 +34,7 @@
 @import url(./blocks/item/__edit-button/item__edit-button.css);
 @import url(./blocks/item/__delete-button/item__delete-button.css);
 @import url(./blocks/item/__done-button/item__done-button.css);
-@import url(./blocks/item/__update-button/item__update-button.css);
+@import url(./blocks/item/__progress-button/item__progress-button.css);
 @import url(./blocks/item/__full-button/item__full-button.css);
 @import url(./blocks/item/__edit-input/item__edit-input.css);
 @import url(./blocks/item/__edit-textarea/item__edit-textarea.css);

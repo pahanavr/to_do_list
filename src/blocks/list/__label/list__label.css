@@ -3,3 +3,9 @@
     font-weight: 700;
     color: #17252A;
 }
+
+@media screen and (max-width: 425px) {
+    .list__label {
+        font-size: 15px;
+    }
+}

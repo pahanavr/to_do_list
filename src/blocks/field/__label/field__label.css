@@ -4,3 +4,9 @@
     text-align: start;
     color: #17252A;
 }
+
+@media screen and (max-width: 425px) {
+    .field__label {
+        font-size: 15px;
+    }
+}

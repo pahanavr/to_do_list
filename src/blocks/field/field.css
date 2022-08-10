@@ -4,3 +4,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 425px) {
+    .field {
+        max-width: 100%;
+        margin: 0 auto;
+        order: 0;
+    }
+}

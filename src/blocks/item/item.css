@@ -10,9 +10,14 @@
     transition: 0.5s linear;
     padding: 20px;
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 .item:last-of-type {
-    margin: 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .item {
+        margin: 0 auto 25px;
+    }
 }

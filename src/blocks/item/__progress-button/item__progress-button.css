@@ -1,4 +1,4 @@
-.item__update-button {
+.item__progress-button {
     background-image: url('../../../images/update-button.svg');
     background-repeat: no-repeat;
     background-size: contain;
@@ -9,9 +9,10 @@
     padding: 0;
     border: none;
     margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
 }
 
-.item__update-button:hover {
+.item__progress-button:hover {
     transition: 0.3s ease-in-out;
     opacity: 0.3;
     transform: scale(0.9);
