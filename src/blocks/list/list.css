@@ -1,0 +1,5 @@
+.list {
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px black solid;
+}

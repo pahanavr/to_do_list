@@ -1,0 +1,17 @@
+.field__button {
+    background-image: url(../../../images/add-button.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    margin: 0 auto;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0;
+    border: none;
+}
+
+.field__button:hover {
+    transition: 0.5s ease-out;
+    transform: translateY(-5px);
+}

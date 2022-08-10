@@ -1,0 +1,6 @@
+.item__text-container {
+    width: 350px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

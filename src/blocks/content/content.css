@@ -1,0 +1,8 @@
+.content {
+    width: 90%;
+    background-color: #8fb9fd;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}

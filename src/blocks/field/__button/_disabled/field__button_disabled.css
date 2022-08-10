@@ -1,0 +1,11 @@
+.field__button_disabled {
+    opacity: 0.5;
+    color: #2C5957;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.field__button_disabled:hover {
+    transition: 0.5s ease-out;
+    transform: translateY(0);
+}
