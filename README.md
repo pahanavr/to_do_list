@@ -12,7 +12,6 @@
 * Adaptive design
 * JavaScript
 * React (react-hooks)
-* API
 
 **Статус проект**
 
